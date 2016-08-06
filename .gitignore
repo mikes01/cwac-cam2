@@ -1,0 +1,13 @@
+.gradle/
+.idea/
+build/
+cam2-support/build/
+cam2-support/cam2-support.iml
+cam2/build/
+cam2/cam2.iml
+demo-playground/build/
+demo-playground/demo-playground.iml
+demo/build/
+demo/demo.iml
+local.properties
+videoblog-camera.iml
