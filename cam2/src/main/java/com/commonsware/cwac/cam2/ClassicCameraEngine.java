@@ -281,7 +281,7 @@ public class ClassicCameraEngine extends CameraEngine
 
         ((Session)session).configureRecorder(xact, recorder);
 
-        recorder.setVideoEncodingBitRate(1000000);
+        recorder.setVideoEncodingBitRate(5000000);
         recorder.setOutputFile(xact.getOutputPath().getAbsolutePath());
         recorder.setMaxFileSize(xact.getSizeLimit());
         recorder.setMaxDuration(xact.getDurationLimit());
